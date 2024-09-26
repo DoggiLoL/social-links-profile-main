@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+html, body{
+    --mainBgColor: hsl(0, 0%, 8%);
+    --cardBgColor: hsl(0, 0%, 12%);
+    --buttonColor: hsl(0, 0%, 20%);
+    --textColor: hsl(0, 0%, 100%);
+    --contrastColor: hsl(75, 94%, 57%); 
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainBgColor);
+    font-family: "Inter", sans-serif;
+}
+
+.card{
+    margin: 0 auto;
+    background-color: var(--cardBgColor);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+img{
+    display: block;
+    border-radius: 100%;
+    width: 88px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 25px;
+}
+
+h1, p, ul, a{
+    text-align: center;
+    color: var(--textColor);
+}
+
+h1{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    
+}
+
+.country{
+    color: var(--contrastColor);
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.head{
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+
+
+a{
+    display: block;
+    background: var(--buttonColor);
+    padding: 16px;
+    border-radius: 10px;
+    margin: 15px 0 0;
+    width: 300px;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: var(--contrastColor);
+    color: var(--mainBgColor);
+}
+
+
