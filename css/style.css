@@ -107,7 +107,7 @@ html, body{
 .card{
     margin: 0 auto;
     background-color: var(--cardBgColor);
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
 }
 
